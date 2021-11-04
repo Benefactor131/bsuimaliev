@@ -1,7 +1,7 @@
 # Bsuimaliev
 https://bsuimaliev.herokuapp.com/
 
-<img align="left" src="/public/thumbBsuimaliev2" width="150px" height="100px" alt="card">
+<img align="left" src="https://github.com/Benefactor131/bsuimaliev/blob/main/public/thumbBsuimaliev2.png?raw=true" width="150px" height="100px" alt="card">
 <br />
 This is source code of my website-portfolio.
 
