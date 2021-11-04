@@ -20,7 +20,9 @@ https://bsuimaliev.herokuapp.com/
 This is source code of my website-portfolio.
 
 ## Stack
-<img align="left" src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" width="25px" alt="Next.js"/> Next.js - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
+<img align="left" src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" width="25px" alt="Next.js"/> 
+
+<link href="https://nextjs.org/"> Next.js </link> - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
 <br />
 <br />
 <img align="left" src="https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg" width="25px" alt="Chakra UI"/> Chakra UI - A simple, modular accessible component library for React
