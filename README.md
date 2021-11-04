@@ -1,6 +1,8 @@
 # Bsuimaliev
 https://bsuimaliev.herokuapp.com/
 
+<img align="left" src="/thumbBsuimaliev2" width="150px" height="100px" alt="card">
+<br />
 This is source code of my website-portfolio.
 
 ## Stack
