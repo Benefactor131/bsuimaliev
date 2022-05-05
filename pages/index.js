@@ -4,8 +4,11 @@ import {
     Container, 
     Box, 
     Heading, 
-    Image, 
+    Image,
+    Stack,
     Link,
+    List,
+    ListItem,
     Icon,
     SimpleGrid,
     useColorModeValue } from '@chakra-ui/react';
@@ -16,7 +19,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
 import { GridItem } from '../components/grid-item';
 import { IoLogoInstagram, IoLogoGithub, IoLogoTwitter } from 'react-icons/io5';
-
 
 const Page = () => {
     return (
@@ -38,7 +40,7 @@ const Page = () => {
                     ml={{md:6}} 
                     align="center"
                     >
-                        <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="100%" src="/images/myself.jpg" alt="Profile Image"/>
+                        <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="100%" src="/images/bair.png" alt="Profile Image"/>
                     </Box>
                 </Box>
 
@@ -46,7 +48,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         About myself
                     </Heading>
-                    <Paragraph>Bair is a college student, moved from Bishkek, Kyrgyzstan to Toronto, Canada, eager to gain first work experience for professional growth as a developer in exchange for an ethical and responsible approach to work as well as being open to learning.</Paragraph>
+                    <Paragraph>Bair is a college student, moved from Bishkek, Kyrgyzstan to Toronto, Canada, eager to gain his first work experience for professional growth as a developer in exchange for an ethical and responsible approach to work as well as being open to learning.</Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon/>} colorScheme="pink">
@@ -70,47 +72,86 @@ const Page = () => {
                     </BioSection>
                 
                 </Section>
-
-                <Section delay={0.3}>
-                    <Heading as="h3" variant="section-title">
+                
+                <Box delay={0.3} align="left">
+                    <Heading align="left" as="h3" variant="section-title">
                         Find me on:
                     </Heading>
-                    <SimpleGrid columns={3}>
-                        <GridItem>
-                            <Link href="https://github.com/bsuimaliev" target="_blank">
-                                <Button 
-                                variant="ghost" 
-                                colorScheme="pink" 
-                                leftIcon={<Icon as={IoLogoGithub} />}
-                                >
-                                    @bsuimaliev
-                                </Button>
-                            </Link>
-                        </GridItem>
-                        <GridItem>
-                            <Link href="https://instagram.com/bb.suimaliev" target="_blank">
-                                <Button
-                                variant="ghost"
-                                colorScheme="pink"
-                                leftIcon={<Icon as={IoLogoInstagram} />}
-                                >
-                                @bsuimaliev
-                                </Button>
-                            </Link>
-                        </GridItem>
-                        <GridItem>
-                            <Link href="https://twitter.com/bsuimaliev" target="_blank">
-                                <Button
-                                variant="ghost"
-                                colorScheme="pink"
-                                leftIcon={<Icon as={IoLogoTwitter} />}
-                                >
-                                @bsuimaliev
-                                </Button>
-                            </Link>
-                        </GridItem>
-                    </SimpleGrid>
-                </Section>    
+                    <Stack display={{base: 'none', md: 'flex'}}>
+                        <SimpleGrid columns={3}>
+                            <GridItem>
+                                <Link href="https://github.com/Benefactor131" target="_blank">
+                                    <Button 
+                                    variant="ghost" 
+                                    colorScheme="pink" 
+                                    leftIcon={<Icon as={IoLogoGithub} />}
+                                    >
+                                        @bsuimaliev
+                                    </Button>
+                                </Link>
+                            </GridItem>
+                            <GridItem>
+                                <Link href="https://instagram.com/bb.suimaliev" target="_blank">
+                                    <Button
+                                    variant="ghost"
+                                    colorScheme="pink"
+                                    leftIcon={<Icon as={IoLogoInstagram} />}
+                                    >
+                                        @bsuimaliev
+                                    </Button>
+                                </Link>
+                            </GridItem>
+                            <GridItem>
+                                <Link href="https://twitter.com/bsuimaliev" target="_blank">
+                                    <Button
+                                    variant="ghost"
+                                    colorScheme="pink"
+                                    leftIcon={<Icon as={IoLogoTwitter} />}
+                                    >
+                                        @bsuimaliev
+                                    </Button>
+                                </Link>
+                            </GridItem>
+                        </SimpleGrid>
+                    </Stack>
+                    <Box ml={2} display={{ md:'none'}}>
+                        <List>
+                            <ListItem>
+                                <Link href="https://github.com/Benefactor131" target="_blank">
+                                    <Button 
+                                    variant="ghost" 
+                                    colorScheme="pink" 
+                                    leftIcon={<Icon as={IoLogoGithub} />}
+                                    >
+                                        @bsuimaliev
+                                    </Button>
+                                </Link>
+                            </ListItem>
+                            <ListItem>
+                                <Link href="https://instagram.com/bb.suimaliev" target="_blank">
+                                    <Button
+                                    variant="ghost"
+                                    colorScheme="pink"
+                                    leftIcon={<Icon as={IoLogoInstagram} />}
+                                    >
+                                        @bsuimaliev
+                                    </Button>
+                                </Link>
+                            </ListItem>
+                            <ListItem>
+                                <Link href="https://twitter.com/bsuimaliev" target="_blank">
+                                    <Button
+                                    variant="ghost"
+                                    colorScheme="pink"
+                                    leftIcon={<Icon as={IoLogoTwitter} />}
+                                    >
+                                        @bsuimaliev
+                                    </Button>
+                                </Link>
+                            </ListItem>    
+                        </List>
+                    </Box>    
+                </Box>
             </Container>
         </Layout>
     )

@@ -75,12 +75,13 @@ const Navbar = props => {
                     </LinkItem>
                     <LinkItem
                     _target="_blank"
-                    href="https://github.com/"
+                    href="https://github.com/Benefactor131/bsuimaliev"
                     path={path}
                     display="inline-flex"
                     alignItems="center"
                     style={{ gap: 4 }}
                     pl={2}
+                    isExternal
                     >
                         <IoLogoGithub />
                         Source
@@ -99,13 +100,10 @@ const Navbar = props => {
                             aria-label="Options"
                             />
                             <MenuList>
-                                <NextLink href="/" passHref>
-                                    <MenuItem as={Link}>About</MenuItem>
-                                </NextLink>
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem>
                                 </NextLink>
-                                <MenuItem as={Link} href="">
+                                <MenuItem as={Link} href="https://github.com/Benefactor131/bsuimaliev" isExternal>
                                     View Source
                                 </MenuItem>
                             </MenuList>

@@ -27,7 +27,7 @@ const Logo = () => {
           <Image src={LogoImg} width={20} height={20} alt="logo" />
           <Text
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
-            font-family="Varela Round"
+            fontFamily="Varela Round"
             fontWeight="bold"
             ml={3}
           >

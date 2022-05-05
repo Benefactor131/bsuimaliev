@@ -1,9 +1,9 @@
 {
   "name": "cv-website",
   "version": "1.0.0",
-  "description": "This is my first CV Website.",
+  "description": "This is my CV Website.",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier -write",
