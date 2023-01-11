@@ -1,5 +1,5 @@
 # Bair Suimaliev - Homepage
-https://bsuimaliev.herokuapp.com/
+https://bsuimaliev.netlify.app/
 
 <img align="left" src="https://github.com/Benefactor131/bsuimaliev/blob/main/public/thumbBsuimaliev2.png?raw=true" width="80%" height="60%" alt="card">
 <br />
