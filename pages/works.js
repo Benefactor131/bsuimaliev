@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbAngify from '../public/images/works/thumbAngify.png';
+import thumbAngify from '/images/works/thumbAngify.png';
 import thumbBairbnb from '../public/images/works/thumbBairbnb.png';
 import thumbBsuimaliev from '../public/images/works/thumbBsuimaliev.png';
 import thumbWildlifeWalk from '../public/images/works/thumbWLW.png';
