@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
             <meta property='og:title' content='Bsuimaliev'/>
             <meta name="image" property='og:image' content='https://i.ibb.co/BKY6nHB/bsuimaliev.png'/>
             <meta name="description" property='og:description' content='My portfolio website, featuring my projects done by myself and during my studies at Seneca College Computer Programming course.'/>
-            <meta property='og:url' content='https://bsuimaliev.herokuapp.com/'/>
+            <meta property='og:url' content='https://bsuimaliev.netlify.app/'/>
             <meta property='og:image:width' content='1200' />
             <meta property='og:image:height' content='627' />
             <link rel="apple-touch-icon" href="apple-touch-icon.png" />
