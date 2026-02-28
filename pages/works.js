@@ -21,7 +21,7 @@ const Works = () => {
 
                 <SimpleGrid columns={1}>
                     <Section>
-                        <WorkGridItem id="angify" title="Angify" thumbnail={"..public/images/works/thumbAngify.png"}>
+                        <WorkGridItem id="angify" title="Angify" thumbnail={"/images/works/thumbAngify.png"}>
                             A music website fetching data from Spotify API
                         </WorkGridItem>
                     </Section>
