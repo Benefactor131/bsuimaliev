@@ -26,11 +26,6 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="bairbnb" title="Bairbnb" thumbnail={thumbBairbnb}>
-                            An Airbnb-like website, aiming to give tenants, places to stay.
-                        </WorkGridItem>
-                    </Section>
-                    <Section>
                         <WorkGridItem id="bsuimaliev" title="Bsuimaliev Portfolio" thumbnail={thumbBsuimaliev}>
                             My portfolio website
                         </WorkGridItem>
